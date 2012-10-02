@@ -1,5 +1,5 @@
 <?php
-	$lang = array(
+$lang = array(
 	'access_denied_credentials' => 'Access denied. Either your credentials are not valid or your request has been refused.',
 	'access_denied_others' => 'Access denied. Your request has been understood, but denied due to access limits like time. Try back later.',
 	'access_level' => 'Access Level',
@@ -11,6 +11,7 @@
 	'admin_role' => 'Admin',
 	'alerts' => 'Alerts',
 	'alerts_received' => 'Alerts Received',
+	'all' => 'All',
 	'am' => 'AM',
 	'anonymous' => 'Anonymous',
 	'anyone_role' => 'Anyone',
@@ -125,6 +126,8 @@
 	'from_date' => 'From',
 	'geonames_timeout' => 'Geonames Timeout Error',
 	'get_help' => 'Get Help',
+	'get_more_themes' => 'Get more themes',
+	'get_more_plugins' => 'Get more plugins',
 	'header_actions' => 'Actions',
 	'header_add_edit' => 'Add/Edit',
 	'header_email' => 'Email',
@@ -190,7 +193,7 @@
 	'new_private' => 'Create New Message',
 	'new_password' => 'New Password',
 	'no' => 'No',
-	'none_category_explanation'=>'This is a special category that will not show up on the report submission form for users submitting reports. This is used to hold reports left without categories(uncategorized reports) as a result of category deletion.',
+	'none_category_explanation' => 'This is a special category that will not show up on the report submission form for users submitting reports. This is used to hold reports left without categories(uncategorized reports) as a result of category deletion.',
 	'notification' => 'Notification',
 	'not_case_sensitive' => 'This is not case sensitive.',
 	'not_found' => 'Not Found',
@@ -203,11 +206,11 @@
 	'page' => 'page',
 	'pages' => 'pages',
 	'page_not_found' => 'Page Not Found',
-	'page_not_found_message' => 'Sorry, the page you are trying to view is not here.<p><strong>Did you follow a link from somewhere else on our site?</strong><br />If you reached this page from another part of our site, please <a href="#">contact us</a> so that we can correct our mistake.</p><p><strong>Did you follow a link from another site? </strong><br />Links from other sites can sometimes be outdated or misspelled. <a href="#">Tell us</a> where you came from and we can try to contact the other site in order to fix the problem.</p><p><strong>Did you type the URL? </strong><br />You may have typed the address (URL) incorrectly. Check to make sure you have got the exact right spelling, capitalization, etc. </p>',
+	'page_not_found_message_with_contact' => 'Sorry, the page you are trying to view is not here.<p><strong>Did you follow a link from somewhere else on our site?</strong><br />If you reached this page from another part of our site, please <a href="%s">contact us</a> so that we can correct our mistake.</p><p><strong>Did you follow a link from another site? </strong><br />Links from other sites can sometimes be outdated or misspelled. <a href="%s">Tell us</a> where you came from and we can try to contact the other site in order to fix the problem.</p><p><strong>Did you type the URL? </strong><br />You may have typed the address (URL) incorrectly. Check to make sure you have got the exact right spelling, capitalization, etc. </p>',
+	'page_not_found_message' => 'Sorry, the page you are trying to view is not here.',
 	'parameters_used' => 'Parameters Used',
 	'password' => 'Password',
 	'password_reset' => 'Password Reset',
-	'password_reset_from' => 'no-reply@ushahidi.com',
 	'password_reset_message_line_1' => 'Dear',
 	'password_reset_message_line_2' => 'We received a request to reset the password for',
 	'password_reset_message_line_3' => 'To change your password, please click on the link below (or copy and paste it into your browser).',
@@ -255,7 +258,7 @@
 	'settings' => 'Settings',
 	'showing_page' => 'Showing page',
 	'showing_results' => 'Showing results',
-	'shown'=>'shown',
+	'shown' => 'shown',
 	'special_category' => 'Special Category',
 	'special_category_explanation' => 'This is a special category that will not show up on the report submission form for users submitting reports. This is used in conjunction with the "Trusted Reporters" feature.',
 	'specific_area' => 'Specific Area',
@@ -302,5 +305,5 @@
 	'wiki' => 'Wiki',
 	'yes' => 'Yes',
 	'your_search_for' => 'Your search for',
-	);
+);
 ?>
